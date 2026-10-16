@@ -8,7 +8,7 @@ st.set_page_config(page_title="烏賊戰術｜台股8策略選股器", layout="w
 api = DataLoader()
 
 # 若有 FinMind Token 請取消下方註解並填入
-# api.login_by_token(api_token=st.secrets["FINMIND_TOKEN"])
+api.login_by_token(api_token=st.secrets["FINMIND_TOKEN"])
 
 # ---------------------- 策略定義（8套完整規則） ----------------------
 strategy_list = {
