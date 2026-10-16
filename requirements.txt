@@ -1,6 +1,9 @@
-streamlit
+Plaintext
 
+streamlit
 pandas
 numpy<2.0.0
 setuptools
+tqdm
+requests
 FinMind
